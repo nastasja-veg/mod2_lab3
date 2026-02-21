@@ -103,10 +103,11 @@ console.log(studentClassEntity.getMarksBySubject("English"));
 // 6. Добавьте в класс метод, удаляющий все оценки по переданному
 // предмету.
 
-Student.prototype.deleteMarksBySubject = funtion(subject) {
+Student.prototype.deleteMarksBySubject = function(subject) {
     this.marks = this.marks.filter(elem => elem.subject !== subject)
 }
 
 console.log("Проверка задания 6")
 console.log(studentClassEntity.deleteMarksBySubject("French"));
 console.log(printStudentInfo(studentClassEntity));
+
