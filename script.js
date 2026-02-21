@@ -51,7 +51,7 @@ class Mark {
 };
 
 class Student {
-    constructor(lastname, name) {
+    constructor(lastname, name, marks) {
         this.lastname = lastname;
         this.name = name;
         this.marks = marks;
@@ -110,6 +110,7 @@ Student.prototype.deleteMarksBySubject = function(subject) {
 console.log("Проверка задания 6")
 console.log(studentClassEntity.deleteMarksBySubject("French"));
 console.log(printStudentInfo(studentClassEntity));
+
 
 
 
