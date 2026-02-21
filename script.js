@@ -38,7 +38,7 @@ function printStudentInfo(student) {
 }
 
 console.log("Проверка задания 1")
-cosole.log(printStudentInfo(studentEntity));
+console.log(printStudentInfo(studentEntity));
 
 // 2. Создайте классы Student и Mark, которые описывают объекты из
 // предыдущего примера.
@@ -110,4 +110,5 @@ Student.prototype.deleteMarksBySubject = function(subject) {
 console.log("Проверка задания 6")
 console.log(studentClassEntity.deleteMarksBySubject("French"));
 console.log(printStudentInfo(studentClassEntity));
+
 
